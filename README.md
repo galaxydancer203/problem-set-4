@@ -36,10 +36,11 @@ git remote add origin git@github.com:YOUR-USERNAME/problem-set-4.git
 ## Exercises
 
 Problem Set 4 contains 10 exercises, each of which will be written in separate functions. There are several segments of code that should not be modified. They will help you to implement and test your solutions.
+<!---
 
-### Exercise 1 (`Hello.`)
-
-Write a function to display `Hello, AP Computer Science Principles!` in the paragraph provided in the HTML template file. There should be no user input for this exercise. Test your code by clicking the `Hello` button.
+-->
+<!--- ### Exercise 1 (`Hello.`)
+Write a function to display `Hello, AP Computer Science Principles!` in the paragraph provided in the HTML template file. There should be no user input for this exercise. Test your code by clicking the `Hello` button.-->
 
 ### Exercise 2 (`Hello, Again.`)
 
