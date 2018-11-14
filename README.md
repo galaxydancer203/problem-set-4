@@ -40,7 +40,7 @@ Problem Set 4 contains 10 exercises, each of which will be written in separate f
 
 -->
 <!--- ### Exercise 1 (`Hello.`)
-Write a function to display `Hello, AP Computer Science Principles!` in the paragraph provided in the HTML template file. There should be no user input for this exercise. Test your code by clicking the `Hello` button.-->
+Write a function to display `Hello, AP Computer Science Principles!` in the paragraph provided in the HTML template file. There should be no user input for this exercise. Test your code by clicking the `Hello` button.
 
 ### Exercise 2 (`Hello, Again.`)
 
@@ -53,7 +53,7 @@ Write a function to convert a randomly generated Celsius temperature to an equiv
 ### Exercise 4 (`Fahrenheit.`)
 
 Write a function to convert a randomly generated Fahrenheit temperature to an equivalent Celsius temperature. The Fahrenheit temperature will be within the range [-100, 1000], and will be rounded to 2 decimals. Your converted Celsius temperature should also be rounded to 2 decimals. Test your code by clicking the `Fahrenheit` button.
-
+-->
 ### Exercise 5 (`Inches.`)
 
 Write a function to convert a number of inches into an equivalent number of miles, yards, feet, and inches. Use a greedy algorithm, meaning you should use as many of the larger units of distance as you can (i.e., miles, yards, feet, and inches, in that order). Report each unit's value on its own line. Test your code by clicking the `Inches` button.

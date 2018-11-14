@@ -91,11 +91,19 @@ function inches() {
   // You are free to modify the value of inches, which you'll likely
   // need to do. Please do not modify the value of input.
 
+
   ////////////////////// DO NOT MODIFY
   let inches = input; // DO NOT MODIFY
   ////////////////////// DO NOT MODIFY
 
   // WRITE YOUR EXERCISE 5 CODE HERE
+
+  var p = document.getElementById("output5");
+  p.innerHTML = "Miles: " + Math.floor(inches/63360) + "</br>";
+  p.innerHTML += "Yards: " + Math.floor((inches%63360)/36) + "</br>";
+  p.innerHTML += "Feet: " + Math.floor(((inches%63360)%36)/12)  + "</br>";
+  p.innerHTML += "Inches: " + Math.floor(((inches%63360)%36)%12) + "</br>";
+
 
   ////////////////////////// DO NOT MODIFY
   check("inches", input); // DO NOT MODIFY
