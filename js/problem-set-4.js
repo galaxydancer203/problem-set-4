@@ -129,15 +129,17 @@ function centimeters() {
 
   // WRITE YOUR EXERCISE 6 CODE HERE
 
-  /////////////////////////////// DO NOT MODIFY
+  var p = document.getElementById("output6");
+  p.innerHTML = "Kilometers: " + Math.floor(centimeters/100000) + "</br>";
+  p.innerHTML += "Meters: " + Math.floor((centimeters%100000)/1000) + "</br>";
+  p.innerHTML += "Centimeters: " + Math.floor(((centimeters%100000)%1000)%100)  + "</br>";
+   /////////////////////////////// DO NOT MODIFY
   check("centimeters", input); // DO NOT MODIFY
   /////////////////////////////// DO NOT MODIFY
 }
-
 /*
  * Fluid Ounces. 5 points.
  */
-
 function fluidOunces() {
 
   /////////////////////////////////////////////////////// DO NOT MODIFY
@@ -152,6 +154,13 @@ function fluidOunces() {
   /////////////////////////// DO NOT MODIFY
 
   // WRITE YOUR EXERCISE 7 CODE HERE
+
+  var p = document.getElementById("output7");
+  p.innerHTML = "Gallons: " + Math.floor(fluidOunces/128) + "</br>";
+  p.innerHTML += "Quarts: " + Math.floor((fluidOunces%128)/4) + "</br>";
+  p.innerHTML += "Pints: " + Math.floor(((fluidOunces%128)%4)/2)  + "</br>";
+  p.innerHTML += "Cups: " + Math.floor((((fluidOunces%128)%4)%2)/2) + "</br>";
+  p.innerHTML += "Fluid Ounces: " +  Math.floor(((((fluidOunces%128)%4)%2)%2)%8) + "</br>"
 
   /////////////////////////////// DO NOT MODIFY
   check("fluidOunces", input); // DO NOT MODIFY
@@ -176,7 +185,11 @@ function ounces() {
   ////////////////////// DO NOT MODIFY
 
   // WRITE YOUR EXERCISE 8 CODE HERE
-
+var p = document.getElementById("output6");
+  p.innerHTML = "Kilometers: " + Math.floor(centimeters/100000) + "</br>";
+  p.innerHTML += "Meters: " + Math.floor((centimeters%100000)/1000) + "</br>";
+  p.innerHTML += "Centimeters: " + Math.floor(((centimeters%100000)%1000)%100)  + "</br>";
+   
   ////////////////////////// DO NOT MODIFY
   check("ounces", input); // DO NOT MODIFY
   ////////////////////////// DO NOT MODIFY
